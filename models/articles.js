@@ -9,4 +9,4 @@ const articleSchema = new Schema({
 
 const Articles = mongoose.model("Articles", articleSchema);
 
-module.exports = articles;
+module.exports = Articles;
